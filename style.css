@@ -1,0 +1,70 @@
+body{
+  background-color: 	#f9f9f9;
+  font-family: Arial,sans-serif;
+}
+main{
+  margin: auto;
+  height: 780px;
+  width: 900px;
+  font-size: 14px;
+
+}
+table.bigBox{
+  background-color: white;
+  border: 1px solid black;
+}
+.phonebase{
+  float: left;
+}
+
+.transparent{
+  opacity: 0.4;
+}
+
+p{
+  text-align: center;
+  font-weight: bold;
+
+}
+
+
+.Details{
+  margin: auto;
+  opacity: 0.3;
+  font-size: 14px;
+  background-color: #f9f9f9;
+}
+ td.box{
+  border: 1px solid black;
+  width: 42%;
+  height: 30px;
+  border-radius: 5px;
+}
+.link {
+  margin: inherit;
+  border-radius: 5px;
+  width:40%;
+  height: 30px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #2e81ec;
+  color: white;
+
+}
+.Hyperlink{
+  color: #3795ef
+}
+.Logo{
+  float: ;
+}
+.Footer{
+  margin: auto;
+  margin-bottom: 0% ;
+  width: 70%;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.copy{
+  opacity: 0.4;
+}
