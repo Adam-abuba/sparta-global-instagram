@@ -3,7 +3,8 @@ body{
   font-family: Arial,sans-serif;
 }
 main{
-  margin: auto;
+  margin: 0 auto;
+
   height: 780px;
   width: 900px;
   font-size: 14px;
@@ -16,7 +17,25 @@ table.bigBox{
 .phonebase{
   float: left;
 }
+.Sidebar{
+  float: right;
+}
+.Logo{
+  width: 276px;
+  height: 91px;
+  margin-left:  48px;
+}
+.link {
+  margin: 0 auto;
+  border-radius: 5px;
+  width:100%;
+  height: 30px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #2e81ec;
+  color: white;
 
+}
 .transparent{
   opacity: 0.4;
 }
@@ -32,6 +51,7 @@ p{
   margin: auto;
   opacity: 0.3;
   font-size: 14px;
+  font-weight: 800;
   background-color: #f9f9f9;
 }
  td.box{
@@ -39,28 +59,28 @@ p{
   width: 42%;
   height: 30px;
   border-radius: 5px;
+  opacity: 0.5;
 }
-.link {
-  margin: inherit;
-  border-radius: 5px;
-  width:40%;
-  height: 30px;
-  text-align: center;
-  font-weight: bold;
-  background-color: #2e81ec;
-  color: white;
 
+.Extra{
+  line-height: 20%;
 }
-.Hyperlink{
-  color: #3795ef
+a{
+  text-decoration: none;
+  color: #3795ef;
 }
-.Logo{
-  float: ;
+
+.Terms{
+  font-weight: bold;
 }
-.Footer{
+
+.Apps{
+  margin-left: 33px;
+}
+footer{
   margin: auto;
   margin-bottom: 0% ;
-  width: 70%;
+  width: 900px;
   font-weight: 600;
   text-transform: uppercase;
 }
