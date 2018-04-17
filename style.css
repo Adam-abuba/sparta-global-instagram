@@ -8,12 +8,14 @@ main{
   height: 780px;
   width: 900px;
   font-size: 14px;
+}
+p{
+  text-align: center;
+  font-weight: bold;
+  overflow-wrap: normal;
+  word-wrap: normal;
+}
 
-}
-table.bigBox{
-  background-color: white;
-  border: 1px solid black;
-}
 .phonebase{
   float: left;
 }
@@ -30,7 +32,7 @@ table.bigBox{
   border-radius: 5px;
   width:100%;
   height: 30px;
-  text-align: center;
+  text-align: justify;
   font-weight: bold;
   background-color: #2e81ec;
   color: white;
@@ -40,19 +42,13 @@ table.bigBox{
   opacity: 0.4;
 }
 
-p{
-  text-align: center;
-  font-weight: bold;
-
-}
-
-
 .Details{
   margin: auto;
   opacity: 0.3;
   font-size: 14px;
   font-weight: 800;
   background-color: #f9f9f9;
+  border-spacing: 0.2rem;
 }
  td.box{
   border: 1px solid black;
@@ -73,7 +69,11 @@ a{
 .Terms{
   font-weight: bold;
 }
-
+.navigation{
+  border-spacing: 10px;
+  width: 30px;
+  margin-top: -20px;
+}
 .Apps{
   margin-left: 33px;
 }
@@ -87,4 +87,41 @@ footer{
 
 .copy{
   opacity: 0.4;
+
+  width: 70px;
+}
+.NotBold{
+  font-weight: normal;
+}
+
+@media screen and (max-width: 700px) {
+  .phonebase{
+    display: none;
+
+  }
+  main{
+    float: none;
+    width: 100%;
+    height: 90%
+  }
+ .Sidebar{
+   float: none;
+ }
+ .Logo{
+   width: 40%;
+   height: 25%;
+   position: relative;
+ }
+.Apps{
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+}
+.link{
+  width: 58%;
+}
+.Details{
+  width: 58%;
+}
+
 }
