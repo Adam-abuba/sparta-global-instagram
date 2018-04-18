@@ -3,68 +3,147 @@ body{
   font-family: Arial,sans-serif;
 }
 main{
-  margin: auto;
+  margin: 0 auto;
+
   height: 780px;
   width: 900px;
   font-size: 14px;
-
 }
-table.bigBox{
-  background-color: white;
-  border: 1px solid black;
-}
-.phonebase{
-  float: left;
-}
-
-.transparent{
-  opacity: 0.4;
-}
-
 p{
   text-align: center;
   font-weight: bold;
-
+  overflow-wrap: normal;
+  word-wrap: normal;
 }
 
+.phonebase{
+  float: left;
+}
+.Sidebar{
+  float: right;
+}
+.Logo{
+  width: 276px;
+  height: 91px;
+  margin-left:  48px;
+}
+.link {
+  margin: 0 auto;
+  border-radius: 5px;
+  width:100%;
+  height: 30px;
+  text-align: justify;
+  font-weight: bold;
+  background-color: #2e81ec;
+  color: white;
+
+}
+.transparent{
+  opacity: 0.4;
+}
 
 .Details{
   margin: auto;
   opacity: 0.3;
   font-size: 14px;
+  font-weight: 800;
   background-color: #f9f9f9;
+  border-spacing: 0.2rem;
 }
  td.box{
   border: 1px solid black;
   width: 42%;
   height: 30px;
   border-radius: 5px;
+  opacity: 0.5;
 }
-.link {
-  margin: inherit;
-  border-radius: 5px;
-  width:40%;
-  height: 30px;
-  text-align: center;
-  font-weight: bold;
-  background-color: #2e81ec;
-  color: white;
+
+.Extra{
+  line-height: 20%;
+}
+a{
+  text-decoration: none;
+  color: #212755;
+  padding: 10px;
 
 }
-.Hyperlink{
-  color: #3795ef
+.LogIn{
+  color: #3795ef;
+  padding: 0;
 }
-.Logo{
-  float: ;
+.Terms{
+  font-weight: bold;
 }
-.Footer{
+.navigation{
+  border-spacing: 10px;
+  width: 30px;
+  margin-top: -20px;
+}
+.Apps{
+  margin-left: 33px;
+}
+footer{
   margin: auto;
   margin-bottom: 0% ;
-  width: 70%;
+  width: 900px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .copy{
   opacity: 0.4;
+
+  width: 70px;
+}
+.NotBold{
+  font-weight: normal;
+}
+
+@media screen and (max-width: 700px) {
+  .phonebase{
+    display: none;
+
+  }
+  main{
+    float: none;
+    width: 100%;
+    height: 90%;
+    text-align:center;
+    display: block;
+  }
+ .Sidebar{
+   float: none;
+   width: 100%;
+ }
+ .Logo{
+   width: 43%;
+   height: 25%;
+
+ }
+.Apps{
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+}
+.link{
+  width: 58%;
+}
+.Details{
+  width: 58%;
+}
+footer{
+  width: 100%;
+}
+.SiteMap{
+  width: 100%;
+  align-content: center;
+  display: inline-block;
+
+
+}
+p{
+  display: block;
+  text-align: center;
+
+  }
 }
