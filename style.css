@@ -63,9 +63,14 @@ p{
 }
 a{
   text-decoration: none;
-  color: #3795ef;
-}
+  color: #212755;
+  padding: 10px;
 
+}
+.LogIn{
+  color: #3795ef;
+  padding: 0;
+}
 .Terms{
   font-weight: bold;
 }
@@ -102,15 +107,18 @@ footer{
   main{
     float: none;
     width: 100%;
-    height: 90%
+    height: 90%;
+    text-align:center;
+    display: block;
   }
  .Sidebar{
    float: none;
+   width: 100%;
  }
  .Logo{
-   width: 40%;
+   width: 43%;
    height: 25%;
-   position: relative;
+
  }
 .Apps{
   width: 100%;
@@ -123,5 +131,19 @@ footer{
 .Details{
   width: 58%;
 }
+footer{
+  width: 100%;
+}
+.SiteMap{
+  width: 100%;
+  align-content: center;
+  display: inline-block;
 
+
+}
+p{
+  display: block;
+  text-align: center;
+
+  }
 }
